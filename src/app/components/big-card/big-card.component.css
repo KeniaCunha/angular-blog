@@ -29,3 +29,8 @@
     width: 100%;
     min-width: 400px;
 }
+
+
+.big-card-title:hover{
+    transform: scale(1.1);
+}

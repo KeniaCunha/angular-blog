@@ -6,12 +6,16 @@
         <h1>{{contentTitle}}</h1>
         <hr />
     </div>
+    <div class="content_category">
+        <h2>{{ contentCategory }}</h2>
+    </div>
     <div class="content_description">
-
         <p>
             {{contentDescription}}
         </p>
         <br>
-        <a [routerLink]="['']"> << VOLTAR </a>
+        <button [routerLink]="['']"> << VOLTAR </button>
     </div>
+
+
 </div>

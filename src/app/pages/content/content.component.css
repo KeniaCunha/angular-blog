@@ -19,6 +19,12 @@
     height:300px;
 }
 
+.content_category > h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: grey
+}
+
 .content_description{
     margin-top: 20px;
     font-size: 20px;
@@ -32,4 +38,8 @@
 
 .content_title{
     font-size:20px
+}
+
+button{
+    color:red
 }
